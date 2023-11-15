@@ -1,0 +1,22 @@
+#menu-usuario {
+    display: none;
+    width: 200px;
+    top: 0%;
+    right: 0;
+    padding: 0.5rem;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    z-index: 999;
+  }
+
+  #menu-usuario a {
+    display: block;
+    padding: 0.5rem;
+    color: #333;
+    text-decoration: none;
+  }
+
+  #menu-usuario a:hover {
+    background-color: #ddd;
+  }

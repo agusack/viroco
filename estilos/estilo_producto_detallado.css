@@ -1,0 +1,359 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(../img/pattern/patternpad113.png);
+    font-size: 62.5%; /* 1rem = 10px */
+  }
+  
+  main {
+    padding-top: 7.4rem;
+    padding-bottom: 3rem;
+  }
+
+  .producto-detallado .container {
+    margin-top: 5rem;
+}
+
+.producto-detallado {
+  display: flex;
+  justify-content: center;
+}
+
+.row {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: content;
+    padding: 3rem;
+    background-color: rgba(	232, 240, 254, 0.5);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 2rem;
+}
+
+.galeria {
+    width: 10%;
+    height: content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    padding: 2rem;
+}
+
+.imagen {
+    width: 65%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.imagen img {
+  filter: drop-shadow(0px 6px 2px rgba(0, 0, 0, 0.3));
+}
+
+.informacion {
+    width: 25%;
+    height: content;
+}
+
+.informacion h1 {
+    width: auto;
+    display: block;
+    color: #255a66;
+    text-decoration: underline;
+}
+
+.informacion h3 {
+  color: #255a66;
+  font-size: 2.4rem;
+  margin-bottom: 2rem;
+}
+
+.informacion p {
+    color: #255a66;
+    font-size: 1.4rem;
+}
+
+.informacion.precio {
+  font-size: 3rem;
+}
+
+.img-principal {
+    max-width: 40rem;
+    max-height: 40rem;
+    object-fit: cover;
+}
+
+.img-miniaturas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img-miniatura {
+    max-width: 10rem;
+    max-height: 10rem;
+    height: auto;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    object-fit: cover;
+}
+
+label {
+  display: block;
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #255a66;
+}
+
+select {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #255a66;
+  padding: 10px;
+  width: 80%;
+  border: none;
+  border-bottom: 1px solid #255a66;
+  background-color: transparent;
+  appearance: none;
+  transition: border-color 0.3s ease-in-out;
+  cursor: pointer;
+  margin-bottom: 1rem; /* agrega margen inferior para separar los elementos */
+}
+
+select:focus {
+  outline: none;
+  border-color: #7fd4dd;
+}
+
+.card-button {
+  width: 80%;
+  height: 3rem;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  transition: .1s ease;
+  line-height: 3rem;
+  background-color: #ccc;
+  color: #888;
+  cursor: not-allowed;
+  pointer-events: none;
+  font-size: 1.2rem;
+  box-shadow: 0px 0.5rem 0.5rem rgba(0, 0, 0, 0.3);
+  border: none;
+  margin-bottom: 1rem;
+  transition: background-color .3s ease-in;
+ }
+
+ .card-button a, .card-button a:hover {
+  text-decoration: none;
+ }
+ 
+ .card-button:hover {
+  background-color: #255a66;
+  color: #7fd4dd;
+  box-shadow: 0 0.2rem 0.3rem rgba(0, 0, 0, 0.2), 0 0.4rem 0.8rem rgba(0, 0, 0, 0.2);
+  transform: translateY(0.1rem);
+ }
+
+ svg {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 0.3rem;
+}
+
+#stock {
+  width: 80%;
+  height: 3rem;
+  display: none;
+  color: #255a66;
+}
+
+
+ /* Selectores generales para barras de desplazamiento Webkit en Chrome/Edge */
+.galeria::-webkit-scrollbar {
+  width: 0.5em;  /* ancho de la barra de desplazamiento */
+  height: 0.5em; /* altura de la barra de desplazamiento */
+}
+
+/* Selectores específicos para la barra de desplazamiento en el eje X */
+.galeria::-webkit-scrollbar-track {
+  background: transparent; /* color de fondo de la pista (por defecto) */
+}
+
+.galeria::-webkit-scrollbar-thumb {
+  background: transparent; /* color del "punto" en la barra de desplazamiento */
+}
+
+/* Para mostrar la barra de desplazamiento solo cuando se haga hover sobre el área de scroll */
+.galeria::-webkit-scrollbar-thumb:hover {
+  background: #ccc;
+}
+
+.cantidad-container {
+  height: auto;
+  margin-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.cantidad-container label {
+  width: 100%;
+}
+
+.quantity {
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 80%;
+}
+
+.quantity-input {
+  height: 4rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #255a66;
+  outline: none;
+  text-align: center;
+  width: 6rem;
+}
+
+.minus-btn, .plus-btn {
+  color: #255a66;
+  padding: 1rem;
+  width: 5rem;
+  text-align: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.minus-btn:focus, .plus-btn:focus {
+  outline: none;
+}
+
+.fa-minus, .fa-plus {
+  font-size: 2rem;
+}
+
+.plus-btn {
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.minus-btn {
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+.notification {
+  display: none;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background-color: #ED82AD;
+  border: 1px solid #ddd;
+  border-radius: 0.4rem;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 9999;
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 768px) {
+
+  body {
+    height: 100%;
+  }
+
+  main {
+    padding-top: 7rem;
+  }
+  
+  .row {
+    display: block;
+    position: relative;
+    width: 70vh;
+    height: auto;
+    padding: 0rem;
+    padding-bottom: 2rem;
+    background-color: rgba(	232, 240, 254, 0.5);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 2rem;
+}
+
+.galeria {
+    position: relative;
+    top: 0;
+    width: 90%;
+    height: 10%;
+    height: content;
+    display: flex;
+    flex-direction: row;
+  align-items: center;
+    overflow-x: scroll;
+    padding: 2rem;
+}
+
+.img-miniaturas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.img-miniatura {
+  max-width: 5rem;
+  max-height: 5rem;
+  height: auto;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  object-fit: cover;
+}
+
+.imagen {
+    position: relative;
+    top: 0%;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+}
+
+.img-principal {
+  width: 90%;
+  height: 90%;
+}
+
+.informacion {
+    position: relative;
+    top: 1rem;
+    width: 90%;
+    height: content;
+    margin-left: 5%;
+}
+
+.quantity {
+  width: 100%;
+}
+
+label {
+  width: 100%;
+}
+
+select {
+  width: 100%;
+}
+
+.card-button {
+  margin-left: 10%;
+  margin-bottom: 2rem;
+}
+
+}

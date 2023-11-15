@@ -1,0 +1,153 @@
+footer {
+  background-color: #255a66;
+  color: #fff;
+  padding-top: 1rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+#conteiner_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.nosotros {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.nos_detalles {
+  margin: 0.5rem;
+  font-size: 1.3rem;
+}
+
+.nosotros p i {
+  color: #FCC9BD;
+}
+
+.medio {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.medio div {
+  margin: 1rem;
+  height: 16rem;
+  width: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ajuste_img4 {
+  height: 50%;
+}
+
+.categorias {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.categorias div {
+  display: flex;
+  flex-direction: row;
+}
+
+.categorias ul {
+  list-style: none;
+  margin: 0;
+}
+
+.categorias li {
+  margin: 0.3rem;
+}
+
+.categorias li a {
+  font-size: 1.3rem;
+  text-decoration: underline;
+  color: #fff;
+}
+
+.categorias li a:hover {
+  color: #FCC9BD;
+}
+
+.titulo {
+  color: #ED82AD;
+  font-weight: bold;
+  font-size: 1.8rem;
+  margin: 1rem;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.logo img {
+  height: 4.5rem;
+  filter: drop-shadow(0px 4px 2px rgba(0, 0, 0, 0.3));
+}
+
+#copy {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: content;
+  color: #7fd4dd;
+}
+
+#copy p {
+  font-size: 1.1rem;
+}
+
+@media screen and (max-width: 768px) {
+
+  footer {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .nosotros {
+    width: 50%;
+  }
+
+  .categorias {
+    width: 50%;
+  }
+
+  .medio {
+    display: none;
+  }
+
+  .titulo {
+    font-size: 1.4rem;
+  }
+
+  .nos_detalles {
+    font-size: 1.1rem;
+  }
+
+  .categorias li a {
+    font-size: 1.1rem;
+  }
+
+  #copy p {
+    font-size: 0.8rem;
+  }
+
+}

@@ -1,0 +1,301 @@
+:root {
+  --fondo-fit: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='70' height='70' patternTransform='scale(2) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(0,0%,100%,1)'/><path d='M-4.8 4.44L4 16.59 16.14 7.8M32 30.54l-13.23 7.07 7.06 13.23M-9 38.04l-3.81 14.5 14.5 3.81M65.22 4.44L74 16.59 86.15 7.8M61 38.04l-3.81 14.5 14.5 3.81'  stroke-linejoin='round' stroke-linecap='round' stroke-width='1.5' stroke='hsla(11, 94%, 87%, 1)' fill='none'/><path d='M59.71 62.88v3h3M4.84 25.54L2.87 27.8l2.26 1.97m7.65 16.4l-2.21-2.03-2.03 2.21m29.26 7.13l.56 2.95 2.95-.55'  stroke-linejoin='round' stroke-linecap='round' stroke-width='1.5' stroke='hsla(3, 77%, 64%, 1)' fill='none'/><path d='M58.98 27.57l-2.35-10.74-10.75 2.36M31.98-4.87l2.74 10.65 10.65-2.73M31.98 65.13l2.74 10.66 10.65-2.74'  stroke-linejoin='round' stroke-linecap='round' stroke-width='1.5' stroke='hsla(186, 58%, 68%, 1)' fill='none'/><path d='M8.42 62.57l6.4 2.82 2.82-6.41m33.13-15.24l-4.86-5.03-5.03 4.86m-14-19.64l4.84-5.06-5.06-4.84'  stroke-linejoin='round' stroke-linecap='round' stroke-width='1.5' stroke='hsla(39, 92%, 71%, 1)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>");
+  --fondo-denso: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='70' height='70' patternTransform='scale(3) rotate(5)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(0, 0%, 96%, 1)'/><path d='M-4.8 4.44L4 16.59 16.14 7.8M32 30.54l-13.23 7.07 7.06 13.23M-9 38.04l-3.81 14.5 14.5 3.81M65.22 4.44L74 16.59 86.15 7.8M61 38.04l-3.81 14.5 14.5 3.81'  stroke-linejoin='round' stroke-linecap='round' stroke-width='3.5' stroke='hsla(39, 92%, 71%, 1)' fill='none'/><path d='M59.71 62.88v3h3M4.84 25.54L2.87 27.8l2.26 1.97m7.65 16.4l-2.21-2.03-2.03 2.21m29.26 7.13l.56 2.95 2.95-.55'  stroke-linejoin='round' stroke-linecap='round' stroke-width='3.5' stroke='hsla(3, 77%, 64%, 1)' fill='none'/><path d='M58.98 27.57l-2.35-10.74-10.75 2.36M31.98-4.87l2.74 10.65 10.65-2.73M31.98 65.13l2.74 10.66 10.65-2.74'  stroke-linejoin='round' stroke-linecap='round' stroke-width='3.5' stroke='hsla(186, 58%, 68%, 1)' fill='none'/><path d='M8.42 62.57l6.4 2.82 2.82-6.41m33.13-15.24l-4.86-5.03-5.03 4.86m-14-19.64l4.84-5.06-5.06-4.84'  stroke-linejoin='round' stroke-linecap='round' stroke-width='3.5' stroke='hsla(11, 94%, 87%, 1)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(-60,0)' fill='url(%23a)'/></svg>");
+  --fondo-fit-denso: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='70' height='70' patternTransform='scale(3) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(0,0%,100%,1)'/><path d='M-4.8 4.44L4 16.59 16.14 7.8M32 30.54l-13.23 7.07 7.06 13.23M-9 38.04l-3.81 14.5 14.5 3.81M65.22 4.44L74 16.59 86.15 7.8M61 38.04l-3.81 14.5 14.5 3.81'  stroke-linejoin='round' stroke-linecap='round' stroke-width='1.5' stroke='hsla(11, 94%, 87%, 1)' fill='none'/><path d='M59.71 62.88v3h3M4.84 25.54L2.87 27.8l2.26 1.97m7.65 16.4l-2.21-2.03-2.03 2.21m29.26 7.13l.56 2.95 2.95-.55'  stroke-linejoin='round' stroke-linecap='round' stroke-width='1.5' stroke='hsla(3, 77%, 64%, 1)' fill='none'/><path d='M58.98 27.57l-2.35-10.74-10.75 2.36M31.98-4.87l2.74 10.65 10.65-2.73M31.98 65.13l2.74 10.66 10.65-2.74'  stroke-linejoin='round' stroke-linecap='round' stroke-width='1.5' stroke='hsla(186, 58%, 68%, 1)' fill='none'/><path d='M8.42 62.57l6.4 2.82 2.82-6.41m33.13-15.24l-4.86-5.03-5.03 4.86m-14-19.64l4.84-5.06-5.06-4.84'  stroke-linejoin='round' stroke-linecap='round' stroke-width='1.5' stroke='hsla(39, 92%, 71%, 1)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>");
+  --fondo-fit-f4: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='70' height='70' patternTransform='scale(1) rotate(5)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(0, 0%, 96%, 1)'/><path d='M-4.8 4.44L4 16.59 16.14 7.8M32 30.54l-13.23 7.07 7.06 13.23M-9 38.04l-3.81 14.5 14.5 3.81M65.22 4.44L74 16.59 86.15 7.8M61 38.04l-3.81 14.5 14.5 3.81'  stroke-linejoin='round' stroke-linecap='round' stroke-width='1' stroke='hsla(39, 92%, 71%, 1)' fill='none'/><path d='M59.71 62.88v3h3M4.84 25.54L2.87 27.8l2.26 1.97m7.65 16.4l-2.21-2.03-2.03 2.21m29.26 7.13l.56 2.95 2.95-.55'  stroke-linejoin='round' stroke-linecap='round' stroke-width='1' stroke='hsla(3, 77%, 64%, 1)' fill='none'/><path d='M58.98 27.57l-2.35-10.74-10.75 2.36M31.98-4.87l2.74 10.65 10.65-2.73M31.98 65.13l2.74 10.66 10.65-2.74'  stroke-linejoin='round' stroke-linecap='round' stroke-width='1' stroke='hsla(186, 58%, 68%, 1)' fill='none'/><path d='M8.42 62.57l6.4 2.82 2.82-6.41m33.13-15.24l-4.86-5.03-5.03 4.86m-14-19.64l4.84-5.06-5.06-4.84'  stroke-linejoin='round' stroke-linecap='round' stroke-width='1' stroke='hsla(11, 94%, 87%, 1)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(-20,0)' fill='url(%23a)'/></svg>");
+  --fondo-fit-f4-zoom: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='70' height='70' patternTransform='scale(2) rotate(5)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(0, 0%, 96%, 1)'/><path d='M-4.8 4.44L4 16.59 16.14 7.8M32 30.54l-13.23 7.07 7.06 13.23M-9 38.04l-3.81 14.5 14.5 3.81M65.22 4.44L74 16.59 86.15 7.8M61 38.04l-3.81 14.5 14.5 3.81'  stroke-linejoin='round' stroke-linecap='round' stroke-width='0.5' stroke='hsla(39, 92%, 71%, 1)' fill='none'/><path d='M59.71 62.88v3h3M4.84 25.54L2.87 27.8l2.26 1.97m7.65 16.4l-2.21-2.03-2.03 2.21m29.26 7.13l.56 2.95 2.95-.55'  stroke-linejoin='round' stroke-linecap='round' stroke-width='0.5' stroke='hsla(3, 77%, 64%, 1)' fill='none'/><path d='M58.98 27.57l-2.35-10.74-10.75 2.36M31.98-4.87l2.74 10.65 10.65-2.73M31.98 65.13l2.74 10.66 10.65-2.74'  stroke-linejoin='round' stroke-linecap='round' stroke-width='0.5' stroke='hsla(186, 58%, 68%, 1)' fill='none'/><path d='M8.42 62.57l6.4 2.82 2.82-6.41m33.13-15.24l-4.86-5.03-5.03 4.86m-14-19.64l4.84-5.06-5.06-4.84'  stroke-linejoin='round' stroke-linecap='round' stroke-width='0.5' stroke='hsla(11, 94%, 87%, 1)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(-40,0)' fill='url(%23a)'/></svg>");
+  --rosa-fuerte: #ed83ae;
+  --rosa-claro: #fdc9bd;
+  --azul: #255a66;
+  --celeste: #7fd4dd;
+  --amarillo: #f9c973;
+  --rojo: #ea645e;
+}
+
+
+body {
+    background-image: var(--fondo-fit-f4-zoom);
+    background-repeat: repeat;
+    font-size: 62.5%; /* 1rem = 10px */
+  }
+
+.page {
+    padding-top: 10rem;
+    padding-bottom: 100vh;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #paymentBrick_container {
+    display: none;
+  }
+
+  .pasarela {
+    width: 40%;
+  }
+
+  #deliveryMethodContainer, #paymentMethodContainer {
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+    padding: 1rem;
+    border-radius: 1.2rem;
+    font-size: 1.5rem;
+  }
+
+  #deliveryMethodContainer h2, #paymentMethodContainer h2 {
+    font-size: 2rem;
+    height: auto;
+    width: 100%;
+  }
+
+  input[type="radio"] {
+    width: 2rem;
+    transform: scale(1.2);
+    margin: 2rem;
+}
+
+  #deliveryMethodForm, #paymentMethodForm {
+    font-size: 1.6rem;
+  }
+
+  #deliveryMethodForm label, #paymentMethodForm label {
+    font-size: 1.2rem;
+  }
+
+  #checkoutForm button[type="button"], #paymentMethodContainer button[type="submit"] {
+    width: auto;
+    height: auto;
+    background-color: #4caf50;
+    color: #fff;
+    padding: 1rem;
+    border: none;
+    border-radius: 0.4rem;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    cursor: pointer;
+    margin: 2rem;
+    }
+
+  #checkoutForm button[type="button"]:hover, #paymentMethodContainer button[type="submit"]:hover {
+      background-color: #45a049;
+    }
+
+  #checkoutForm input[type="text"], #checkoutForm input[type="number"], #paymentMethodContainer input[type="text"], #paymentMethodContainer input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .pasarela h2, .carrito h2 {
+    font-size: 2rem;
+    color: #255a66;
+    padding-left: 2rem;
+  }
+
+  #paymentMethodContainer h2 {
+    padding-left: 0;
+  }
+
+.pago {
+  width: 100%;
+  border-radius: 1.2rem;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.carrito {
+  width: 40%;
+}
+
+table {
+  height: auto;
+  width: 100%;
+  border-radius: 1.2rem;
+}
+
+.tabla-carrito {
+  margin-bottom: 1rem;
+  color: #255a66;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+  padding-bottom: 1rem;
+}
+.tabla-carrito thead {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.tabla-carrito tbody {
+  font-size: 1.4rem;
+}
+.tabla-carrito th {
+  border-bottom: 1px solid #255a66;
+  padding: 2rem;
+  text-align: left;
+}
+
+.tabla-carrito tr td {
+  padding: 2rem;
+  border-top: 1px solid #255a66;
+}
+
+.tabla-carrito td img {
+  height: 6rem;
+  width: 6rem;
+}
+
+.total_tabla {
+  margin-left: 2rem;
+}
+
+#pago_procesado {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  height: 100%;
+  width: 100%;
+  border-radius: 1.2rem;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+  padding: 2rem;
+}
+
+#pago_procesado p {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #255a66;
+}
+
+#pago_procesado p i {
+  font-size: 50px;
+}
+
+#pago_procesado button {
+  width: auto;
+  height: auto;
+  background-color: #4caf50;
+  color: #fff;
+  padding: 1rem;
+  border: none;
+  border-radius: 0.4rem;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  cursor: pointer;
+  margin: 2rem;
+}
+
+.loader {
+  display: none;
+  position: relative;
+  top: 40%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.jimu-primary-loading:before,
+.jimu-primary-loading:after {
+  position: absolute;
+  top: 0;
+  content: '';
+}
+
+.jimu-primary-loading:before {
+  left: -19.992px;
+}
+
+.jimu-primary-loading:after {
+  left: 19.992px;
+  -webkit-animation-delay: 0.32s !important;
+  animation-delay: 0.32s !important;
+}
+
+.jimu-primary-loading:before,
+.jimu-primary-loading:after,
+.jimu-primary-loading {
+  background: #076fe5;
+  -webkit-animation: loading-keys-app-loading 0.8s infinite ease-in-out;
+  animation: loading-keys-app-loading 0.8s infinite ease-in-out;
+  width: 13.6px;
+  height: 32px;
+}
+
+.jimu-primary-loading {
+  text-indent: -9999em;
+  margin: auto;
+  position: absolute;
+  right: calc(50% - 6.8px);
+  top: calc(50% - 16px);
+  -webkit-animation-delay: 0.16s !important;
+  animation-delay: 0.16s !important;
+}
+
+@-webkit-keyframes loading-keys-app-loading {
+
+  0%,
+  80%,
+  100% {
+    opacity: .75;
+    box-shadow: 0 0 #076fe5;
+    height: 32px;
+  }
+
+  40% {
+    opacity: 1;
+    box-shadow: 0 -8px #076fe5;
+    height: 40px;
+  }
+}
+
+@keyframes loading-keys-app-loading {
+
+  0%,
+  80%,
+  100% {
+    opacity: .75;
+    box-shadow: 0 0 #076fe5;
+    height: 32px;
+  }
+
+  40% {
+    opacity: 1;
+    box-shadow: 0 -8px #076fe5;
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .page {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pasarela {
+    width: 90%;
+  }
+
+  .pago {
+    margin-top: 2rem;
+  }
+
+  .loader {
+    top: 100%;
+  }
+
+  .carrito {
+    width: 90%;
+  }
+
+  .carrito h2, .pasarela h2 {
+    font-size: 2rem;
+    width: 90%;
+  }
+
+} 

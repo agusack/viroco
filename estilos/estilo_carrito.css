@@ -1,0 +1,71 @@
+:root {
+  --fondo-fit: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='70' height='70' patternTransform='scale(2) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(0,0%,100%,1)'/><path d='M-4.8 4.44L4 16.59 16.14 7.8M32 30.54l-13.23 7.07 7.06 13.23M-9 38.04l-3.81 14.5 14.5 3.81M65.22 4.44L74 16.59 86.15 7.8M61 38.04l-3.81 14.5 14.5 3.81'  stroke-linejoin='round' stroke-linecap='round' stroke-width='1.5' stroke='hsla(11, 94%, 87%, 1)' fill='none'/><path d='M59.71 62.88v3h3M4.84 25.54L2.87 27.8l2.26 1.97m7.65 16.4l-2.21-2.03-2.03 2.21m29.26 7.13l.56 2.95 2.95-.55'  stroke-linejoin='round' stroke-linecap='round' stroke-width='1.5' stroke='hsla(3, 77%, 64%, 1)' fill='none'/><path d='M58.98 27.57l-2.35-10.74-10.75 2.36M31.98-4.87l2.74 10.65 10.65-2.73M31.98 65.13l2.74 10.66 10.65-2.74'  stroke-linejoin='round' stroke-linecap='round' stroke-width='1.5' stroke='hsla(186, 58%, 68%, 1)' fill='none'/><path d='M8.42 62.57l6.4 2.82 2.82-6.41m33.13-15.24l-4.86-5.03-5.03 4.86m-14-19.64l4.84-5.06-5.06-4.84'  stroke-linejoin='round' stroke-linecap='round' stroke-width='1.5' stroke='hsla(39, 92%, 71%, 1)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>");
+  --fondo-denso: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='70' height='70' patternTransform='scale(3) rotate(5)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(0, 0%, 96%, 1)'/><path d='M-4.8 4.44L4 16.59 16.14 7.8M32 30.54l-13.23 7.07 7.06 13.23M-9 38.04l-3.81 14.5 14.5 3.81M65.22 4.44L74 16.59 86.15 7.8M61 38.04l-3.81 14.5 14.5 3.81'  stroke-linejoin='round' stroke-linecap='round' stroke-width='3.5' stroke='hsla(39, 92%, 71%, 1)' fill='none'/><path d='M59.71 62.88v3h3M4.84 25.54L2.87 27.8l2.26 1.97m7.65 16.4l-2.21-2.03-2.03 2.21m29.26 7.13l.56 2.95 2.95-.55'  stroke-linejoin='round' stroke-linecap='round' stroke-width='3.5' stroke='hsla(3, 77%, 64%, 1)' fill='none'/><path d='M58.98 27.57l-2.35-10.74-10.75 2.36M31.98-4.87l2.74 10.65 10.65-2.73M31.98 65.13l2.74 10.66 10.65-2.74'  stroke-linejoin='round' stroke-linecap='round' stroke-width='3.5' stroke='hsla(186, 58%, 68%, 1)' fill='none'/><path d='M8.42 62.57l6.4 2.82 2.82-6.41m33.13-15.24l-4.86-5.03-5.03 4.86m-14-19.64l4.84-5.06-5.06-4.84'  stroke-linejoin='round' stroke-linecap='round' stroke-width='3.5' stroke='hsla(11, 94%, 87%, 1)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(-60,0)' fill='url(%23a)'/></svg>");
+  --fondo-fit-denso: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='70' height='70' patternTransform='scale(3) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(0,0%,100%,1)'/><path d='M-4.8 4.44L4 16.59 16.14 7.8M32 30.54l-13.23 7.07 7.06 13.23M-9 38.04l-3.81 14.5 14.5 3.81M65.22 4.44L74 16.59 86.15 7.8M61 38.04l-3.81 14.5 14.5 3.81'  stroke-linejoin='round' stroke-linecap='round' stroke-width='1.5' stroke='hsla(11, 94%, 87%, 1)' fill='none'/><path d='M59.71 62.88v3h3M4.84 25.54L2.87 27.8l2.26 1.97m7.65 16.4l-2.21-2.03-2.03 2.21m29.26 7.13l.56 2.95 2.95-.55'  stroke-linejoin='round' stroke-linecap='round' stroke-width='1.5' stroke='hsla(3, 77%, 64%, 1)' fill='none'/><path d='M58.98 27.57l-2.35-10.74-10.75 2.36M31.98-4.87l2.74 10.65 10.65-2.73M31.98 65.13l2.74 10.66 10.65-2.74'  stroke-linejoin='round' stroke-linecap='round' stroke-width='1.5' stroke='hsla(186, 58%, 68%, 1)' fill='none'/><path d='M8.42 62.57l6.4 2.82 2.82-6.41m33.13-15.24l-4.86-5.03-5.03 4.86m-14-19.64l4.84-5.06-5.06-4.84'  stroke-linejoin='round' stroke-linecap='round' stroke-width='1.5' stroke='hsla(39, 92%, 71%, 1)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>");
+  --fondo-fit-f4: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='70' height='70' patternTransform='scale(1) rotate(5)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(0, 0%, 96%, 1)'/><path d='M-4.8 4.44L4 16.59 16.14 7.8M32 30.54l-13.23 7.07 7.06 13.23M-9 38.04l-3.81 14.5 14.5 3.81M65.22 4.44L74 16.59 86.15 7.8M61 38.04l-3.81 14.5 14.5 3.81'  stroke-linejoin='round' stroke-linecap='round' stroke-width='1' stroke='hsla(39, 92%, 71%, 1)' fill='none'/><path d='M59.71 62.88v3h3M4.84 25.54L2.87 27.8l2.26 1.97m7.65 16.4l-2.21-2.03-2.03 2.21m29.26 7.13l.56 2.95 2.95-.55'  stroke-linejoin='round' stroke-linecap='round' stroke-width='1' stroke='hsla(3, 77%, 64%, 1)' fill='none'/><path d='M58.98 27.57l-2.35-10.74-10.75 2.36M31.98-4.87l2.74 10.65 10.65-2.73M31.98 65.13l2.74 10.66 10.65-2.74'  stroke-linejoin='round' stroke-linecap='round' stroke-width='1' stroke='hsla(186, 58%, 68%, 1)' fill='none'/><path d='M8.42 62.57l6.4 2.82 2.82-6.41m33.13-15.24l-4.86-5.03-5.03 4.86m-14-19.64l4.84-5.06-5.06-4.84'  stroke-linejoin='round' stroke-linecap='round' stroke-width='1' stroke='hsla(11, 94%, 87%, 1)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(-20,0)' fill='url(%23a)'/></svg>");
+  --fondo-fit-f4-zoom: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='70' height='70' patternTransform='scale(2) rotate(5)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(0, 0%, 96%, 1)'/><path d='M-4.8 4.44L4 16.59 16.14 7.8M32 30.54l-13.23 7.07 7.06 13.23M-9 38.04l-3.81 14.5 14.5 3.81M65.22 4.44L74 16.59 86.15 7.8M61 38.04l-3.81 14.5 14.5 3.81'  stroke-linejoin='round' stroke-linecap='round' stroke-width='0.5' stroke='hsla(39, 92%, 71%, 1)' fill='none'/><path d='M59.71 62.88v3h3M4.84 25.54L2.87 27.8l2.26 1.97m7.65 16.4l-2.21-2.03-2.03 2.21m29.26 7.13l.56 2.95 2.95-.55'  stroke-linejoin='round' stroke-linecap='round' stroke-width='0.5' stroke='hsla(3, 77%, 64%, 1)' fill='none'/><path d='M58.98 27.57l-2.35-10.74-10.75 2.36M31.98-4.87l2.74 10.65 10.65-2.73M31.98 65.13l2.74 10.66 10.65-2.74'  stroke-linejoin='round' stroke-linecap='round' stroke-width='0.5' stroke='hsla(186, 58%, 68%, 1)' fill='none'/><path d='M8.42 62.57l6.4 2.82 2.82-6.41m33.13-15.24l-4.86-5.03-5.03 4.86m-14-19.64l4.84-5.06-5.06-4.84'  stroke-linejoin='round' stroke-linecap='round' stroke-width='0.5' stroke='hsla(11, 94%, 87%, 1)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(-40,0)' fill='url(%23a)'/></svg>");
+  --rosa-fuerte: #ed83ae;
+  --rosa-claro: #fdc9bd;
+  --azul: #255a66;
+  --celeste: #7fd4dd;
+  --amarillo: #f9c973;
+  --rojo: #ea645e;
+}
+
+body {
+  background-image: var(--fondo-fit-f4-zoom);
+  background-repeat: repeat;
+  font-size: 62.5%;
+}
+
+p {
+  font-size: 1.4rem;
+}
+
+table {
+  width: 100%;
+}
+
+.tabla-carrito {
+  margin-bottom: 2rem;
+  color: #255a66;
+  border-collapse: collapse;
+  background-color: #e8f0fe;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.tabla-carrito thead {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.tabla-carrito tbody {
+  font-size: 1.4rem;
+}
+.tabla-carrito td, .tabla-carrito th {
+  border-bottom: 1px solid #255a66;
+  padding: 0.8rem;
+  text-align: left;
+}
+
+.tabla-carrito td img {
+  height: 6rem;
+  width: 6rem;
+}
+
+.container {
+  padding-top: 9rem;
+}
+
+.container h1 {
+  color: #255a66;
+}
+
+.panel-body {
+  color: #255a66;
+  font-size: 1.4rem;
+  background-color: #e8f0fe;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.panel-body p {
+  font-size: 1.6rem;
+}

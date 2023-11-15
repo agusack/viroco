@@ -1,0 +1,39 @@
+#sidebar-menu {
+  width: 100%;
+  background-color: #FCC9BD;
+  padding: 2rem;
+  position: absolute;
+  top: 50px;
+  left: -100%;
+  transition: all 0.3s ease-in-out;
+  z-index: 9999;
+}
+
+#sidebar-menu a {
+  color: #ED82AD;
+  font-size: 1.4rem;
+  padding: 1rem 0;
+  display: block;
+  transition: all 0.3s ease-in-out;
+}
+
+#sidebar-menu a:hover {
+  background-color: #ED82AD;
+  color: #FCC9BD;
+  text-decoration: none;
+}
+
+#sidebar-menu ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Mostrar el menú en pantallas pequeñas */
+@media screen and (max-width: 991px) {
+  #sidebar-menu {
+    left: 0;
+  }
+  .navbar-header button {
+    margin-right: 15px;
+  }
+}
